@@ -3,7 +3,7 @@
 }
 
 :root {
-  --background-color: #0b0b0e;
+  --background-color: linear-gradient(135deg, red, blue, black);;
   --text-color: #ffffff;
 
   --gamba-ui-border-radius: 10px;
@@ -17,7 +17,7 @@
 
   --gamba-ui-input-background: #0e0e16;
   --gamba-ui-input-color: #ffffff;
-  --gamba-ui-input-background-hover: #11111d;
+  --gamba-ui-input-background-hover: #0808ab;
 }
 
 body, input, button, textarea, pre {
@@ -58,4 +58,41 @@ body::-webkit-scrollbar-thumb {
   font-weight: normal;
   background: rgb(55, 57, 82);
   border-radius: 10px;
+}
+
+
+.creative-button-container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Set the container height to the full viewport height */
+}
+
+.creative-button {
+  border: none;
+  border-radius: 30px; /* Rounded corners */
+  padding: 15px 30px; /* Padding for spacing */
+  font-size: 16px; /* Font size */
+  font-weight: bold; /* Bold font weight */
+  color: #fff; /* Text color */
+  background-color: #b70000; /* Background color */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Drop shadow */
+  cursor: pointer;
+  outline: none; /* Remove outline on focus */
+  transition: transform 0.2s ease, box-shadow 0.2s ease; /* Smooth transition */
+}
+
+.creative-button:hover {
+  transform: translateY(-3px); /* Move button up on hover */
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+}
+
+.image-container {
+  text-align: center; /* Center the image horizontally */
+}
+
+.button-container {
+  display: flex;
+  justify-content: center; /* Center the button horizontally */
+  margin-top: 20px; /* Add some spacing between the image and the button */
 }
