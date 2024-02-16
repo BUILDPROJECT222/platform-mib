@@ -12,9 +12,7 @@ export const PLATFORM_SHARABLE_URL = 'v2-play.gamba.so'
 
 // List of tokens supported by this platform
 export const TOKENS: TokenMeta[] = [
-  GambaStandardTokens.sol,
-  GambaStandardTokens.usdc,
-   {
+  {
      mint: new PublicKey("6QsLcMf558wAbGWHYeNFWWkGXj7W5AYuBxtrHvAeyLxS"),
     symbol: 'MIB',
     name: 'Magic Internet Bets',
@@ -22,4 +20,6 @@ export const TOKENS: TokenMeta[] = [
     decimals: 9,
     baseWager: 2000 * 1e9,
    }
+  GambaStandardTokens.sol,
+  GambaStandardTokens.usdc,
 ]
