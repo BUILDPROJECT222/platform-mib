@@ -8,7 +8,7 @@ export const RPC_ENDPOINT = import.meta.env.VITE_RPC_ENDPOINT ?? "https://mainne
 export const PLATFORM_CREATOR_ADDRESS = new PublicKey('594WGMyY5TSqPQnGjHHMqoSYYSrtbSFYL3NuXUp8qzkQ')
 
 // Appears in ShareModal
-export const PLATFORM_SHARABLE_URL = 'v2-play.gamba.so'
+export const PLATFORM_SHARABLE_URL = 'play.magicinternetbets.net/'
 
 // List of tokens supported by this platform
 export const TOKENS: TokenMeta[] = [
