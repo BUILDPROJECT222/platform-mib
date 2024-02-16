@@ -15,11 +15,11 @@ export const TOKENS: TokenMeta[] = [
   GambaStandardTokens.sol,
   GambaStandardTokens.usdc,
    {
-     mint: new PublicKey("JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN"),
-    symbol: 'JUP',
-    name: 'Jupiter',
-    image: "https://assets.coingecko.com/coins/images/34188/standard/jup.png?1704266489",
-    decimals: 6,
+     mint: new PublicKey("6QsLcMf558wAbGWHYeNFWWkGXj7W5AYuBxtrHvAeyLxS"),
+    symbol: 'MIB',
+    name: 'Magic Internet Bets',
+    image: "https://i.ibb.co/HrLzc08/logo-30.png",
+    decimals: 9,
     baseWager: 1 * 1e6,
    }
 ]
