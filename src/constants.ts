@@ -20,7 +20,7 @@ export const TOKENS: TokenMeta[] = [
     name: 'Magic Internet Bets',
     image: "https://i.ibb.co/HrLzc08/logo-30.png",
     decimals: 9,
-    baseWager: 1k * 1e6,
+    baseWager: 2000 * 1e9,
    }
   {
     mint: new PublicKey("JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN"),
