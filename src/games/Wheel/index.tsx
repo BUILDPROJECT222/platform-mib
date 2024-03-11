@@ -64,6 +64,7 @@ export default function WheelGame() {
     wheel.position.set(app.screen.width / 2, app.screen.height / 2);
     app.stage.addChild(wheel as PIXI.DisplayObject);
     drawWheel(wheel, REGULAR_WHEEL_SEGMENTS, REGULAR_SEGMENT_COLORS);
+    drawTicker(app, radius);
 
     if (wheelContainerRef.current) {
       wheelContainerRef.current.appendChild(app.view as unknown as Node);
